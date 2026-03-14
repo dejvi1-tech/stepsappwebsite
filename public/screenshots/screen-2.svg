@@ -1,0 +1,65 @@
+<svg width="430" height="932" viewBox="0 0 430 932" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="430" y2="932" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#04162F"/>
+      <stop offset="1" stop-color="#01050E"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#79B3FF"/>
+      <stop offset="1" stop-color="#3A73DF"/>
+    </linearGradient>
+    <linearGradient id="greenBtn" x1="24" y1="826" x2="406" y2="826">
+      <stop stop-color="#41DB70"/>
+      <stop offset="1" stop-color="#2FBE56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="430" height="932" rx="44" fill="url(#bg2)"/>
+  <text x="34" y="78" fill="white" font-family="Manrope, Arial" font-size="26" font-weight="700">Trends</text>
+
+  <rect x="24" y="116" width="382" height="296" rx="26" fill="#2D3648" fill-opacity="0.92" stroke="#65789A" stroke-opacity="0.5"/>
+  <line x1="56" y1="172" x2="374" y2="172" stroke="#7384A5" stroke-opacity="0.38"/>
+  <line x1="56" y1="244" x2="374" y2="244" stroke="#7384A5" stroke-opacity="0.38"/>
+  <line x1="56" y1="316" x2="374" y2="316" stroke="#7384A5" stroke-opacity="0.38"/>
+
+  <rect x="90" y="236" width="32" height="80" rx="10" fill="url(#bar)"/>
+  <rect x="136" y="258" width="32" height="58" rx="10" fill="#A8B9D6" fill-opacity="0.42"/>
+  <rect x="182" y="246" width="32" height="70" rx="10" fill="#A8B9D6" fill-opacity="0.42"/>
+  <rect x="228" y="222" width="32" height="94" rx="10" fill="url(#bar)"/>
+  <rect x="274" y="206" width="32" height="110" rx="10" fill="url(#bar)"/>
+  <rect x="320" y="230" width="32" height="86" rx="10" fill="url(#bar)"/>
+
+  <text x="32" y="450" fill="white" font-family="Manrope, Arial" font-size="48" font-weight="700">History</text>
+
+  <rect x="24" y="476" width="182" height="94" rx="22" fill="#2E3645" fill-opacity="0.9"/>
+  <rect x="224" y="476" width="182" height="94" rx="22" fill="#2E3645" fill-opacity="0.9"/>
+  <text x="56" y="530" fill="white" font-family="Manrope, Arial" font-size="26" font-weight="700">3 days</text>
+  <text x="56" y="554" fill="#A3B0CB" font-family="Manrope, Arial" font-size="16">Current streak</text>
+  <text x="256" y="530" fill="white" font-family="Manrope, Arial" font-size="26" font-weight="700">10 days</text>
+  <text x="256" y="554" fill="#A3B0CB" font-family="Manrope, Arial" font-size="16">Best streak</text>
+
+  <rect x="24" y="592" width="382" height="220" rx="24" fill="#313A4C" fill-opacity="0.9" stroke="#6A7CA0" stroke-opacity="0.46"/>
+
+  <g opacity="0.95">
+    <circle cx="74" cy="646" r="15" fill="#6EA9FF"/>
+    <circle cx="122" cy="646" r="15" fill="#6EA9FF"/>
+    <circle cx="170" cy="646" r="15" fill="#6EA9FF"/>
+    <circle cx="218" cy="646" r="15" fill="#6EA9FF"/>
+    <circle cx="266" cy="646" r="15" fill="#6EA9FF"/>
+    <circle cx="314" cy="646" r="15" fill="#6EA9FF"/>
+    <circle cx="362" cy="646" r="15" fill="#6EA9FF"/>
+  </g>
+
+  <g opacity="0.38">
+    <circle cx="74" cy="694" r="15" fill="#6EA9FF"/>
+    <circle cx="122" cy="694" r="15" fill="#6EA9FF"/>
+    <circle cx="170" cy="694" r="15" fill="#6EA9FF"/>
+    <circle cx="218" cy="694" r="15" fill="#6EA9FF"/>
+    <circle cx="266" cy="694" r="15" fill="#6EA9FF"/>
+    <circle cx="314" cy="694" r="15" fill="#6EA9FF"/>
+    <circle cx="362" cy="694" r="15" fill="#6EA9FF"/>
+  </g>
+
+  <rect x="24" y="826" width="382" height="82" rx="28" fill="url(#greenBtn)"/>
+  <text x="215" y="877" text-anchor="middle" fill="#06120A" font-family="Manrope, Arial" font-size="44" font-weight="700">Start</text>
+</svg>
