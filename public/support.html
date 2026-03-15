@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Support – StepsApp</title>
+    <style>
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        background: #020714;
+        color: #f4f7ff;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        -webkit-font-smoothing: antialiased;
+      }
+      .card {
+        background: linear-gradient(145deg, rgba(42,53,75,0.92), rgba(24,31,47,0.86));
+        border: 1px solid rgba(127,151,197,0.28);
+        border-radius: 1.5rem;
+        padding: 2.5rem 2rem;
+        max-width: 480px;
+        width: 100%;
+        text-align: center;
+        box-shadow: 0 24px 60px rgba(0,0,0,0.5);
+      }
+      .icon {
+        width: 64px;
+        height: 64px;
+        margin: 0 auto 1.25rem;
+        display: block;
+      }
+      h1 {
+        font-size: 1.6rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+      }
+      .subtitle {
+        color: #9ba8c8;
+        font-size: 0.97rem;
+        line-height: 1.6;
+        margin-bottom: 1.75rem;
+      }
+      .email-link {
+        display: inline-block;
+        background: linear-gradient(135deg, #79afff, #3d7ff8);
+        color: #0a1327;
+        font-weight: 700;
+        font-size: 1rem;
+        padding: 0.75rem 1.5rem;
+        border-radius: 999px;
+        text-decoration: none;
+        transition: transform 0.2s ease;
+      }
+      .email-link:hover { transform: translateY(-1px); }
+      .footer-note {
+        margin-top: 1.5rem;
+        color: #6b7a9a;
+        font-size: 0.84rem;
+      }
+      .back {
+        margin-top: 2rem;
+        color: #6b7a9a;
+        font-size: 0.88rem;
+        text-decoration: none;
+        transition: color 0.2s;
+      }
+      .back:hover { color: #9ba8c8; }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <svg class="icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#1a3a7c"/>
+            <stop offset="100%" stop-color="#0d8f9e"/>
+          </linearGradient>
+        </defs>
+        <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+        <circle cx="32" cy="32" r="22" stroke="#4dd8e4" stroke-width="3.2" stroke-linecap="round"
+          stroke-dasharray="124 14" transform="rotate(-130 32 32)" fill="none"/>
+        <circle cx="32" cy="32" r="4" fill="#4dd8e4" transform="rotate(140 32 32) translate(0,-22)"/>
+        <circle cx="32" cy="20" r="4" fill="white"/>
+        <rect x="30" y="24" width="4" height="9" rx="2" fill="white"/>
+        <path d="M30.5 27 L24.5 30.5" stroke="white" stroke-width="3" stroke-linecap="round"/>
+        <path d="M33.5 27 L39 25" stroke="white" stroke-width="3" stroke-linecap="round"/>
+        <path d="M31 33 L27 41" stroke="white" stroke-width="3" stroke-linecap="round"/>
+        <path d="M33 33 L37 41" stroke="white" stroke-width="3" stroke-linecap="round"/>
+      </svg>
+
+      <h1>StepsApp Support</h1>
+      <p class="subtitle">Need help? We're happy to assist.<br/>Send us an email and we'll get back to you as soon as possible.</p>
+
+      <a class="email-link" href="mailto:stepsapp@gmail.com">stepsapp@gmail.com</a>
+
+      <p class="footer-note">For support, email: <strong>stepsapp@gmail.com</strong></p>
+    </div>
+
+    <a class="back" href="/">&larr; Back to StepsApp</a>
+  </body>
+</html>
