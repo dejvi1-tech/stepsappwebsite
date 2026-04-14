@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy – StepsApp</title>
+    <style>
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        background: #020714;
+        color: #f4f7ff;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2.5rem 1.5rem;
+        -webkit-font-smoothing: antialiased;
+      }
+      .card {
+        background: linear-gradient(145deg, rgba(42,53,75,0.92), rgba(24,31,47,0.86));
+        border: 1px solid rgba(127,151,197,0.28);
+        border-radius: 1.5rem;
+        padding: 2.5rem 2rem;
+        max-width: 640px;
+        width: 100%;
+        box-shadow: 0 24px 60px rgba(0,0,0,0.5);
+      }
+      .icon {
+        width: 64px;
+        height: 64px;
+        margin: 0 auto 1.25rem;
+        display: block;
+      }
+      h1 {
+        font-size: 1.6rem;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 0.4rem;
+      }
+      .updated {
+        text-align: center;
+        color: #9ba8c8;
+        font-size: 0.86rem;
+        margin-bottom: 2rem;
+      }
+      h2 {
+        font-size: 1.05rem;
+        font-weight: 600;
+        color: #79afff;
+        margin: 1.75rem 0 0.6rem;
+      }
+      p, li {
+        color: #c8d3ed;
+        font-size: 0.95rem;
+        line-height: 1.7;
+      }
+      ul {
+        padding-left: 1.25rem;
+      }
+      li { margin-bottom: 0.3rem; }
+      .highlight {
+        background: rgba(79,160,255,0.1);
+        border: 1px solid rgba(79,160,255,0.22);
+        border-radius: 0.75rem;
+        padding: 0.9rem 1.1rem;
+        margin-top: 1.5rem;
+        color: #a8c8ff;
+        font-size: 0.92rem;
+        line-height: 1.6;
+      }
+      a { color: #79afff; }
+      .back {
+        margin-top: 2rem;
+        color: #6b7a9a;
+        font-size: 0.88rem;
+        text-decoration: none;
+        transition: color 0.2s;
+        display: inline-block;
+      }
+      .back:hover { color: #9ba8c8; }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <svg class="icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#1a3a7c"/>
+            <stop offset="100%" stop-color="#0d8f9e"/>
+          </linearGradient>
+        </defs>
+        <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+        <rect x="20" y="28" width="24" height="18" rx="3" fill="white" opacity="0.9"/>
+        <path d="M26 28v-5a6 6 0 0 1 12 0v5" stroke="white" stroke-width="3" stroke-linecap="round" fill="none"/>
+        <circle cx="32" cy="37" r="3" fill="#4dd8e4"/>
+      </svg>
+
+      <h1>Privacy Policy</h1>
+      <p class="updated">StepsApp &nbsp;·&nbsp; Last updated: April 14, 2026</p>
+
+      <p>StepsApp ("we", "our", or "the app") is committed to protecting your privacy. This policy explains what data the app accesses, how it is used, and your rights.</p>
+
+      <h2>Data We Access</h2>
+      <p>StepsApp reads the following data from Apple HealthKit and CoreMotion on your device:</p>
+      <ul>
+        <li>Step count</li>
+        <li>Walking + running distance</li>
+        <li>Active energy burned (calories)</li>
+        <li>Flights climbed</li>
+        <li>Heart rate (requires Apple Watch)</li>
+      </ul>
+
+      <h2>How Your Data Is Used</h2>
+      <p>All health and fitness data is used exclusively to display your daily activity, trends, and goal progress within the app. Your data is never sold, shared with third parties, or used for advertising.</p>
+
+      <h2>Data Storage</h2>
+      <p>All health data remains on your device. StepsApp does not transmit your health or fitness data to any external server. Step history and settings are stored locally using Apple's UserDefaults and HealthKit — both protected by iOS security and your device passcode.</p>
+
+      <div class="highlight">
+        Your health data <strong>never leaves your device</strong>. We have no servers that store it and no ability to access it remotely.
+      </div>
+
+      <h2>Social Features (Friends)</h2>
+      <p>If you choose to use the Friends feature, your display name and daily step total are shared with friends you explicitly add. This data is stored securely on our backend (Supabase) and is only visible to your confirmed friends. You can delete your account and all associated data at any time from Settings.</p>
+
+      <h2>HealthKit</h2>
+      <p>StepsApp integrates with Apple HealthKit. We do not use HealthKit data for advertising, market research, or any purpose beyond in-app activity tracking. We comply fully with Apple's HealthKit guidelines.</p>
+
+      <h2>Children's Privacy</h2>
+      <p>StepsApp is not directed at children under 13. We do not knowingly collect personal information from children.</p>
+
+      <h2>Changes to This Policy</h2>
+      <p>We may update this policy from time to time. The "Last updated" date above will reflect any changes. Continued use of the app after changes constitutes acceptance of the revised policy.</p>
+
+      <h2>Contact</h2>
+      <p>Questions about this privacy policy? Email us at <a href="mailto:stepsapp@gmail.com">stepsapp@gmail.com</a>.</p>
+    </div>
+
+    <a class="back" href="/">&larr; Back to StepsApp</a>
+  </body>
+</html>
